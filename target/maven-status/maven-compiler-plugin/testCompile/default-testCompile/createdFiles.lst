@@ -1,0 +1,4 @@
+com\amazon\addToCart\ValidateAddToCart.class
+karate\TestRunner.class
+baseClass\BaseTest.class
+restAssured\ApiTesting.class

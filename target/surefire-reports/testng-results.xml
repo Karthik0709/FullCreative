@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Suite" duration-ms="44916" started-at="2021-02-18T11:06:22 IST" finished-at="2021-02-18T11:07:07 IST">
+    <groups>
+    </groups>
+    <test name="ValidateAddtoCart" duration-ms="44916" started-at="2021-02-18T11:06:22 IST" finished-at="2021-02-18T11:07:07 IST">
+      <class name="com.amazon.addToCart.ValidateAddToCart">
+        <test-method status="PASS" signature="beginmethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.amazon.addToCart.ValidateAddToCart@5a8e6209]" name="beginmethod" is-config="true" duration-ms="4365" started-at="2021-02-18T11:06:22 IST" finished-at="2021-02-18T11:06:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.addToCart.ValidateAddToCart.cartAddition(java.util.Map) throws java.awt.AWTException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a1debfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginmethod -->
+        <test-method status="PASS" signature="initiate(java.lang.String)[pri:0, instance:com.amazon.addToCart.ValidateAddToCart@5a8e6209]" name="initiate" is-config="true" duration-ms="2986" started-at="2021-02-18T11:06:27 IST" finished-at="2021-02-18T11:06:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="cartAddition(java.util.Map)[pri:0, instance:com.amazon.addToCart.ValidateAddToCart@5a8e6209]" name="cartAddition" duration-ms="30558" started-at="2021-02-18T11:06:30 IST" data-provider="ExcelData" finished-at="2021-02-18T11:07:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Model=Samsung m51}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartAddition -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.addToCart.ValidateAddToCart@5a8e6209]" name="close" is-config="true" duration-ms="1" started-at="2021-02-18T11:07:00 IST" finished-at="2021-02-18T11:07:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.amazon.addToCart.ValidateAddToCart@5a8e6209]" name="afterTest" is-config="true" duration-ms="6347" started-at="2021-02-18T11:07:00 IST" finished-at="2021-02-18T11:07:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartAddition status=SUCCESS method=ValidateAddToCart.cartAddition(java.util.Map)[pri:0, instance:com.amazon.addToCart.ValidateAddToCart@5a8e6209] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.amazon.addToCart.ValidateAddToCart -->
+    </test> <!-- ValidateAddtoCart -->
+  </suite> <!-- Amazon Suite -->
+</testng-results>
